@@ -12,13 +12,90 @@
     {"id": "BILTRANCO", "name": "Bicol Transport Cooperative"}
   ],
   "stops": [
-    {"id": "S1", "name": "Legazpi Grand Terminal", "lat": 13.1391, "lng": 123.7438},
-    {"id": "S2", "name": "Imperial Street / Cruzada", "lat": 13.1415, "lng": 123.7380},
-    {"id": "S3", "name": "Rizal Avenue / Embarcadero", "lat": 13.1432, "lng": 123.7320},
-    {"id": "S4", "name": "Bicol University Main Campus", "lat": 13.1448, "lng": 123.7250},
-    {"id": "S5", "name": "Sagpon / Daraga Boundary", "lat": 13.1465, "lng": 123.7185},
-    {"id": "S6", "name": "Daraga Town Plaza", "lat": 13.1480, "lng": 123.7145},
-    {"id": "S7", "name": "Daraga Church", "lat": 13.1488, "lng": 123.7128}
+    {
+      "id": "S1",
+      "name": "Legazpi Grand Terminal",
+      "lat": 13.1391,
+      "lng": 123.7438,
+      "landmarks": [
+        "SM City Legazpi",
+        "Ibalong Centrum for Recreation",
+        "Terminal Food Stalls",
+        "Graceland Express"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Imperial Street / Cruzada",
+      "lat": 13.1415,
+      "lng": 123.7380,
+      "landmarks": [
+        "1st Colonial Grill (Villa Imperial)",
+        "Albay Doctors Hospital",
+        "LCC Department Store",
+        "Café Uno"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Rizal Avenue / Embarcadero",
+      "lat": 13.1432,
+      "lng": 123.7320,
+      "landmarks": [
+        "Embarcadero de Legazpi",
+        "Legazpi Boulevard Waterfront",
+        "Biggs Diner Port",
+        "LCC Expressmart"
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Bicol University Main Campus",
+      "lat": 13.1448,
+      "lng": 123.7250,
+      "landmarks": [
+        "BU Main Amphitheater",
+        "BU Student Activity Center",
+        "Four Seasons Restaurant",
+        "College Food Hub"
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Sagpon / Daraga Boundary",
+      "lat": 13.1465,
+      "lng": 123.7185,
+      "landmarks": [
+        "Albay Park & Wildlife",
+        "Small Fry Grill",
+        "Sagpon Heritage Arch",
+        "Local Eateries"
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "Daraga Town Plaza",
+      "lat": 13.1480,
+      "lng": 123.7145,
+      "landmarks": [
+        "Daraga Town Plaza Park",
+        "Cagsawa Souvenir Shops",
+        "Four Star Bakery",
+        "Daraga Public Market"
+      ]
+    },
+    {
+      "id": "S7",
+      "name": "Daraga Church",
+      "lat": 13.1488,
+      "lng": 123.7128,
+      "landmarks": [
+        "Our Lady of the Gate Parish",
+        "Mayon Volcano Viewdeck",
+        "Daraga Heritage Steps",
+        "Church Hill Café"
+      ]
+    }
   ],
   "edges": [
     {
