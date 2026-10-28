@@ -1,0 +1,105 @@
+{
+  "fare_rules": {
+    "short_distance_min_km": 0,
+    "short_distance_max_km": 3.0,
+    "short_distance_fare": 11.00,
+    "base_fare": 14.00,
+    "base_km": 4.0,
+    "surcharge_per_km": 1.0
+  },
+  "cooperatives": [
+    {"id": "LADOTRANSCO", "name": "Legazpi-Daraga Transport Cooperative"},
+    {"id": "BILTRANCO", "name": "Bicol Transport Cooperative"}
+  ],
+  "stops": [
+    {"id": "S1", "name": "Legazpi Grand Terminal", "lat": 13.1391, "lng": 123.7438},
+    {"id": "S2", "name": "Imperial Street / Cruzada", "lat": 13.1415, "lng": 123.7380},
+    {"id": "S3", "name": "Rizal Avenue / Embarcadero", "lat": 13.1432, "lng": 123.7320},
+    {"id": "S4", "name": "Bicol University Main Campus", "lat": 13.1448, "lng": 123.7250},
+    {"id": "S5", "name": "Sagpon / Daraga Boundary", "lat": 13.1465, "lng": 123.7185},
+    {"id": "S6", "name": "Daraga Town Plaza", "lat": 13.1480, "lng": 123.7145},
+    {"id": "S7", "name": "Daraga Church", "lat": 13.1488, "lng": 123.7128}
+  ],
+  "edges": [
+    {
+      "from": "S1",
+      "to": "S2",
+      "distance_km": 0.85,
+      "mode": "Jeepney",
+      "coop_id": "LADOTRANSCO",
+      "is_one_way": false,
+      "waypoints": [
+        [13.1391, 123.7438],
+        [13.1408, 123.7431],
+        [13.1406, 123.7402],
+        [13.1404, 123.7386],
+        [13.1415, 123.7380]
+      ]
+    },
+    {
+      "from": "S2",
+      "to": "S3",
+      "distance_km": 0.90,
+      "mode": "Jeepney",
+      "coop_id": "LADOTRANSCO",
+      "is_one_way": false,
+      "waypoints": [
+        [13.1415, 123.7380],
+        [13.1420, 123.7350],
+        [13.1432, 123.7320]
+      ]
+    },
+    {
+      "from": "S3",
+      "to": "S4",
+      "distance_km": 1.10,
+      "mode": "Jeepney",
+      "coop_id": "LADOTRANSCO",
+      "is_one_way": false,
+      "waypoints": [
+        [13.1432, 123.7320],
+        [13.1440, 123.7280],
+        [13.1448, 123.7250]
+      ]
+    },
+    {
+      "from": "S4",
+      "to": "S5",
+      "distance_km": 0.80,
+      "mode": "Jeepney",
+      "coop_id": "BILTRANCO",
+      "is_one_way": false,
+      "waypoints": [
+        [13.1448, 123.7250],
+        [13.1458, 123.7210],
+        [13.1465, 123.7185]
+      ]
+    },
+    {
+      "from": "S5",
+      "to": "S6",
+      "distance_km": 0.40,
+      "mode": "Jeepney",
+      "coop_id": "BILTRANCO",
+      "is_one_way": false,
+      "waypoints": [
+        [13.1465, 123.7185],
+        [13.1472, 123.7160],
+        [13.1480, 123.7145]
+      ]
+    },
+    {
+      "from": "S6",
+      "to": "S7",
+      "distance_km": 0.18,
+      "mode": "Jeepney",
+      "coop_id": "BILTRANCO",
+      "is_one_way": false,
+      "waypoints": [
+        [13.1480, 123.7145],
+        [13.1485, 123.7135],
+        [13.1488, 123.7128]
+      ]
+    }
+  ]
+}
